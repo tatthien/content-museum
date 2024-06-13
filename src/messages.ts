@@ -32,7 +32,7 @@ Anh chị đừng quên nhé :<<`,
 good day -> tracking
 stress -> tracking
 happy -> tracking
-ANH CHỊ ĐỪNG QUÊN TRACK TIME  VÀO 5H CHIỀU TỪ T2-T6 NHÉ :poultry_leg:`,
+ANH CHỊ ĐỪNG QUÊN TRACK TIME  VÀO 5H CHIỀU TỪ T2-T6 NHÉ 🍗`,
   },
   {
     id: 7,
