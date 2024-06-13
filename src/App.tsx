@@ -8,7 +8,16 @@ function App() {
       <div className="message-grid">
         {messages.map((msg) => (
           <div className="message" key={msg.id}>
-            <p>{msg.text}</p>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: msg.text.replace(
+                  /(logtime|tracking|log time|track time|track-time)/gi,
+                  (found) => {
+                    return `<mark>${found}</mark>`;
+                  },
+                ),
+              }}
+            ></p>
           </div>
         ))}
       </div>
