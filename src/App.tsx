@@ -11,7 +11,7 @@ function App() {
             <p
               dangerouslySetInnerHTML={{
                 __html: msg.text.replace(
-                  /(logtime|tracking|log time|track time|track-time)/gi,
+                  /(logtime|tracking|log time|track time|track-time|log-time)/gi,
                   (found) => {
                     return `<mark>${found}</mark>`;
                   },
