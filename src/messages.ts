@@ -46,4 +46,10 @@ Ra về nhớ TRACK-TIME
 ngủ có thể quên,
 nhưng QUÊN TRACK TIME là MẤT TIỀN nha anh chị ơi :(((`,
   },
+  {
+    id: 9,
+    text: `BỘ PHIM LOG TIME ĐANG ĐƯỢC CHIẾU TỪ THỨ 2 - THỨ 6 VÀO LÚC 17H, XEM FREE TẠI
+http://phimmoi.com`,
+    image: "9.png",
+  },
 ];

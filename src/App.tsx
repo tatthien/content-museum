@@ -8,6 +8,7 @@ function App() {
       <div className="message-grid">
         {messages.map((msg) => (
           <div className="message" key={msg.id}>
+            {msg.image && <img src={msg.image} alt="" />}
             <p
               dangerouslySetInnerHTML={{
                 __html: msg.text
